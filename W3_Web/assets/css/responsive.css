@@ -1,0 +1,79 @@
+/* nên đổi qua em để hạn chế lỗi trân các trình duyệt */
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+
+}
+
+@media (max-width:1023px){
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .social-list {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 739px) {
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px 38px
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .member-list {
+        margin-top: 32px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    .contact-form .form-control {
+        margin-top: 8px;
+    }
+}
